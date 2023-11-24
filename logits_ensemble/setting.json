@@ -1,0 +1,38 @@
+{
+  "method": "logits",
+  "model": {
+    "type": "gnn", 
+    "spec": {
+      "in_channels": 6,
+      "hidden_dim": 128,
+      "out_channels": 7, 
+      "n_layers": 3,
+      "sigmoid": true,
+      "softmax": false,
+      "fig": 5,
+      "emb_dim": 32,
+      "logits_dim": 32
+    },
+    "training": {
+      "lr": 1e-3,
+      "weight_decay": 0,
+      "pre_epoch": 200,
+      "epoch": 1000,
+      "loss_type": "mse",
+      "val_loss_type": "mse"
+    }
+  },
+  "dataset": {
+    "data_path": "./data/",
+    "n_target": 7,
+    "num_data": 6466,
+    "num_train": 80,
+    "num_val": 20,
+    "batch_size": {
+        "train": 16,
+        "val": 16,
+        "test": 16,
+        "full": 512    
+    }
+  }
+}
