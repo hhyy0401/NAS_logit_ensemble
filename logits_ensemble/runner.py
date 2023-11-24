@@ -83,7 +83,7 @@ if __name__ == "__main__":
     labels = torch.load(data_path + "labels.pt")
         
     if config.method == "logits":
-        logits = torch.load(logits_path + "random_logits.pt")[:, :, :config.model.spec.fig, :]
+        logits = torch.load(logits_path + "logits.pt")[:, :, :config.model.spec.fig, :]
         #logits = torch.load(data_path + "logits_test_batch.pt").to(device)
         #logits = torch.load(data_path + "logits/logits.pt")[:, :, :config.model.spec.fig, :]
         #img_idx = torch.load(logits_path + "cifar10_idx.pt")[:, :config.model.spec.logits]
