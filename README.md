@@ -14,7 +14,7 @@ This code is composed of two steps:
     2. *fig=the number of images*
 
 ## Outputs
-- Evaluation measures including mse, mae, R2, spearmanr coefficient, and kendall tau. 
+- Evaluation metrics: mse, mae, R2, spearmanr coefficient, kendall tau, etc. 
 
 ## Datasets
 - Logit files are on the link below.
