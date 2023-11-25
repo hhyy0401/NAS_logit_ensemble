@@ -2,9 +2,8 @@
 
 The code is for predicting neural architectures (especially for NAS-Bench-201 dataset).
 This code is composed of two steps:
-
-1. 
-
+1. Pretraining step: Pre-train logits of top-k (in terms of entropy) images, respectively. 
+2. Fine-tuning: Ensemble all predictors to estimate performance of neural architectures.
 
 ## Running Codes
 - Command "python runner.py setting.json {device}".
@@ -18,4 +17,4 @@ This code is composed of two steps:
 ## Datasets
 - Logit files are on the link below.
 - You might contain folder name *logits* in the data folder.
-https://postechackr-my.sharepoint.com/:f:/g/personal/hhyy0401_postech_ac_kr/Ekcx1Ah3JrhOmYYArZXPcF4B9JsU2Sla86-o8gBGvdY5Iw?e=aC5kBh
+- https://postechackr-my.sharepoint.com/:f:/g/personal/hhyy0401_postech_ac_kr/Ekcx1Ah3JrhOmYYArZXPcF4B9JsU2Sla86-o8gBGvdY5Iw?e=aC5kBh
