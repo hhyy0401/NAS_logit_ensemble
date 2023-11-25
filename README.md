@@ -22,4 +22,5 @@ This code is composed of two steps:
 - *logits.pt* is sorted in terms of entropy, containing 30 images.
 - *random_logits.pt* consist of logits of randomly selected 30 images.
 - *labels.pt* is true labels of NAS-Bench-201 datasets.
-- *permutations.npy* contains 50 cases of permutations of NAS-Bench-201 datasets.
+- *permutation.npy* contains 50 cases of permutations of NAS-Bench-201 datasets.
+- *nas-sample.pt* contains 50 cases of permutations of NAS-Bench-201 datasets.
