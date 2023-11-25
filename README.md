@@ -8,9 +8,8 @@ This code is composed of two steps:
 ## Running Codes
 - Command "python runner.py setting.json {device}".
   - If CUDA available, set *device=cuda*. Else, set *device=cpu*.
-  - You might use "CUDA_VISIBLE_DEVICES={num}" if cuda availble.
+  - You might use "CUDA_VISIBLE_DEVICES={num}" if cuda availble. For example, "CUDA_VISIBLE_DEVICES=0 python runner.py setting.json cuda"
   - You can select hyperparameters in *setting.json* file.
-    <Examples>
     1. *method=logits* for pre-training logits. *method=gnn* for baseline (without pre-training)
     2. *fig=the number of images*
 
