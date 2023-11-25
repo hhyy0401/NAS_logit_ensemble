@@ -2,7 +2,7 @@
 
 The code is for predicting neural architectures (especially for NAS-Bench-201 dataset).
 This code is composed of two steps:
-1. Pretraining step: Pre-train logits of top-k (in terms of entropy) images, respectively. 
+1. Pre-training step: Pre-train logits of top-k (in terms of entropy) images, respectively. 
 2. Fine-tuning: Ensemble all predictors to estimate performance of neural architectures.
 
 ## Running Codes
