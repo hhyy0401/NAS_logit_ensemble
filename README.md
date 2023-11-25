@@ -21,3 +21,5 @@ This code is composed of two steps:
 - Download files above and save them in the *data>logits* directory.
 - *logits.pt* is sorted in terms of entropy, containing 30 images.
 - *random_logits.pt* consist of logits of randomly selected 30 images.
+- *labels.pt* is true labels of NAS-Bench-201 datasets.
+- 
