@@ -10,6 +10,9 @@ This code is composed of two steps:
   - If CUDA available, set *device=cuda*. Else, set *device=cpu*.
   - You might use "CUDA_VISIBLE_DEVICES={num}" if cuda availble.
   - You can select hyperparameters in *setting.json* file.
+    <Examples>
+    1. *method=logits* for pre-training logits. *method=gnn* for baseline (without pre-training)
+    2. *fig=the number of images*
 
 ## Outputs
 - Evaluation measures including mse, mae, R2, spearmanr coefficient, and kendall tau. 
@@ -17,4 +20,6 @@ This code is composed of two steps:
 ## Datasets
 - Logit files are on the link below.
 - You might contain folder name *logits* in the data folder.
+- *logits.pt* is sorted in terms of entropy, containing 30 images.
+- *random_logits.pt* is randomly selected 30 images.
 - https://postechackr-my.sharepoint.com/:f:/g/personal/hhyy0401_postech_ac_kr/Ekcx1Ah3JrhOmYYArZXPcF4B9JsU2Sla86-o8gBGvdY5Iw?e=aC5kBh
