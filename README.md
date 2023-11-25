@@ -1,4 +1,4 @@
-![image](https://github.com/hhyy0401/NAS_logit_ensemble/assets/51827404/727db530-0399-4c35-9786-9a2d3f4588ca)# NAS_logit_ensemble
+# NAS_logit_ensemble
 
 The code is for predicting neural architectures (especially for NAS-Bench-201 dataset).
 This code is composed of two steps:
